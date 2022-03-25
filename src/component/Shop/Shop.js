@@ -13,7 +13,7 @@ const Shop = () => {
 
     return (
         <div>
-            <div className='text-center m-4 title-container mb-5'>
+            <div className='text-center mt-5 title-container mb-5'>
                 <h1 className='site-title mb-4  '>Makeup Station</h1>
                 <h5>Do your Make-up</h5>
             </div>

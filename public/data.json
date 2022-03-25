@@ -2,61 +2,73 @@
     {
         "id": "1",
         "picture": "https://media.allure.com/photos/5f034ac538f76f0008f3e5fc/1:1/w_2000,h_2000,c_limit/Makeup%20For%20Ever%20Reboot%20Foundation.jpg",
-        "name": "Foundation"
+        "name": "Reboot Foundation",
+        "price": "$150"
     },
     {
         "id": "2",
-        "picture": "http://placehold.it/32x32",
-        "name": "Foundation"
+        "picture": "https://cdn00.nnnow.com/web-images/large/styles/X74TCBYN4YU/1631190506863/1.jpg",
+        "name": "Mac Foundation",
+        "price": "$200"
     },
     {
         "id": "3",
-        "picture": "http://placehold.it/32x32",
-        "name": "Foundation"
+        "picture": "https://m.media-amazon.com/images/I/71cKeLWCvQL._SL1500_.jpg",
+        "name": "Mac Primer",
+        "price": "$200"
     },
     {
         "id": "4",
-        "picture": "http://placehold.it/32x32",
-        "name": "Foundation"
+        "picture": "https://www.ubuy.com.bd/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNjFPMnpZMGFDQUwuX1NMMTUwMF8uanBn.jpg",
+        "name": "Mac Red Lipstic",
+        "price": "$200"
     },
     {
         "id": "5",
-        "picture": "http://placehold.it/32x32",
-        "name": "Foundation"
+        "picture": "https://img.makeupalley.com/1/1/8/1/3484616.JPG",
+        "name": "Mac Pink Lipstic",
+        "price": "$200"
     },
     {
         "id": "6",
-        "picture": "http://placehold.it/32x32",
-        "name": "Foundation"
+        "picture": "https://5.imimg.com/data5/IW/LN/WV/SELLER-83502672/mac-lipstick-500x500.jpg",
+        "name": "Red Natural MAC Lipstick",
+        "price": "$200"
     },
     {
         "id": "7",
-        "picture": "http://placehold.it/32x32",
-        "name": "Foundation"
+        "picture": "https://static9.depositphotos.com/1003272/1166/i/600/depositphotos_11664001-stock-photo-mascara.jpg",
+        "name": "Maskara",
+        "price": "$200"
     },
     {
         "id": "8",
-        "picture": "http://placehold.it/32x32",
-        "name": "Foundation"
+        "picture": "https://storage.googleapis.com/pricemandu.com/images/products/full/9508ed0e0b7542c62df3eb2a5d81d28905db957b.jpg",
+        "name": "MAC 3D Eye shadow",
+        "price": "$200"
     },
     {
         "id": "9",
-        "picture": "http://placehold.it/32x32",
-        "name": "Foundation"
+        "picture": "https://www.musingsofamuse.com/wp-content/uploads/2015/10/MAC-Enchanted-Eve-Essential-Brush-Kit.jpg",
+        "name": "Mac brush",
+        "price": "$200"
     },
     {
         "id": "10",
-        "picture": "http://placehold.it/32x32",
-        "name": "Foundation"
+        "picture": "https://www.thechicadvocate.com/wp-content/uploads/2018/03/MAC-Eyeshadow-Palette.jpg",
+        "name": "MAC Eyeshadow Palette",
+        "price": "$200"
     },
     {
         "id": "11",
-        "picture": "http://placehold.it/32x32",
-        "name": "Foundation"
+        "picture": "https://i.pinimg.com/originals/01/bc/cc/01bccca1e754cf1f66914b36d072712c.jpg",
+        "name": "Glitter Eye Shadow",
+        "price": "$200"
     },
     {
         "id": "12",
-        "picture": "http://placehold.it/32x32",
-        "name": "Foundation"
+        "picture": "https://static-01.daraz.com.bd/p/3ada8036e9a800a757c0635a35e53712.jpg",
+        "name": "Makeup Brush Set",
+        "price": "$200"
     }
 ]

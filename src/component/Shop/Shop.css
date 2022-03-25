@@ -1,14 +1,30 @@
+body{
+    background-color: rgb(250, 245, 245);
+}
 .title-container{
     font-family: 'Pacifico', cursive;
 }
 .site-title{
-   
     color: #F10086;
     font-size: 50px;
 }
 .shop-container{
-    border: 1px solid red;
     display: grid;
-    grid-template-columns: 4fr 1fr;
-
+    grid-template-columns: 4fr 2fr;
 }
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+@media screen and (max-width: 768px) {
+    .product-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    body{
+        width: 100%;
+    }
+    
+  }
