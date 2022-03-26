@@ -1,6 +1,6 @@
 .item-container{
     height: 450px;
-    width: 300px;
+    width: 250px;
     border: 2px solid #999;
     border-radius:8px ;
    position: relative;
@@ -11,7 +11,8 @@
  }
  .img-container img{
      height:200px ;
-     padding: 5px;     
+     padding: 5px;  
+     width: 170px;   
  }
 .product-info{
     margin-top: 20px;
