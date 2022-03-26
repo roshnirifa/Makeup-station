@@ -37,12 +37,14 @@ body{
         grid-template-columns: repeat(1, 1fr);
     }
     .shop-container{
-        grid-template-columns:  1fr;
+        grid-template-columns:  1fr ;
  
     }
     .cart{
         margin-top: 30px;
-      
-
+  }
+ 
+  .site-title{
+      font-size: 30px;
   }
 }
