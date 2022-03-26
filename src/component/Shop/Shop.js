@@ -8,7 +8,7 @@ const Shop = () => {
     // for load fake data
     const [products, setProduct] = useState([])
     const [cart, setCart] = useState([])
-    const [removeCart, setRemovecart] = useState([])
+
 
     useEffect(() => {
         fetch('data.json')
@@ -19,9 +19,15 @@ const Shop = () => {
         const newCart = [...cart, product]
         setCart(newCart)
     }
-    const cartRemove = cart => {
-        console.log(cart);
+    const cartRemove = () => {
+        setCart([])
 
+    }
+    const chooseRandaom = (cart) => {
+        const item = cart[Math.floor(Math.random() * cart.length)];
+        const cartArray = [];
+        cartArray.push(...cartArray, item)
+        setCart(cartArray);
     }
     return (
         <div className='container-fluid'>
@@ -53,8 +59,8 @@ const Shop = () => {
                         }
                     </div>
                     <div >
-                        <button className='btn btn-outline-success m-4'>Choose 1 for me</button>
-                        <button onClick={() => cartRemove(cart)} className='btn btn-outline-success m-4'>Choose again</button>
+                        <button onClick={() => chooseRandaom(cart)} className='btn btn-outline-success m-4'>Choose 1 for me</button>
+                        <button onClick={cartRemove} className='btn btn-outline-success m-4'>Choose again</button>
                     </div>
                 </div>
 
