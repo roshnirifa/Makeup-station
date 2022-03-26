@@ -20,16 +20,29 @@ body{
     padding-right: 40px;
 }
 .cart{
-   border:  2px solid salmon;
-   
+    border: 2px solid #999;
+    height: 600px;
+    box-shadow: 2px 2px 4px 2px #999;
+    background-color: #f8dbeb;
+    margin-right: 30px;
 
+}
+.btn{
+    background-color: #f36dab;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 2px #999;
 }
 @media screen and (max-width: 768px) {
     .product-container {
         grid-template-columns: repeat(1, 1fr);
     }
-    body{
-        width: 100%;
+    .shop-container{
+        grid-template-columns:  1fr;
+ 
     }
-    
+    .cart{
+        margin-top: 30px;
+      
+
   }
+}

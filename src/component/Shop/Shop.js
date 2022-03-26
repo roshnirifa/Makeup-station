@@ -30,7 +30,7 @@ const Shop = () => {
         setCart(cartArray);
     }
     return (
-        <div className='container-fluid'>
+        <div>
             <div className='text-center mt-5 title-container mb-5'>
                 <h1 className='site-title mb-4  '>Makeup Station</h1>
                 <h5>Do your Make-up</h5>
@@ -38,6 +38,7 @@ const Shop = () => {
 
             <div className='shop-container'>
                 <div className='product-container'>
+
                     {
                         products.map(product => <Product
                             key={product.id}
@@ -48,7 +49,7 @@ const Shop = () => {
                     }
                 </div>
                 <div className="cart">
-                    <h3 className='p-5'>Selected Product</h3>
+                    <h3 className='p-5'>Selecte 4 Items</h3>
                     <div>
                         {
                             cart.map(product => <Cart
@@ -59,8 +60,8 @@ const Shop = () => {
                         }
                     </div>
                     <div >
-                        <button onClick={() => chooseRandaom(cart)} className='btn btn-outline-success m-4'>Choose 1 for me</button>
-                        <button onClick={cartRemove} className='btn btn-outline-success m-4'>Choose again</button>
+                        <button onClick={() => chooseRandaom(cart)} className='btn  m-4 fw-bold'>Choose 1 for me</button>
+                        <button onClick={cartRemove} className='btn m-4 fw-bold'>Choose again</button>
                     </div>
                 </div>
 
